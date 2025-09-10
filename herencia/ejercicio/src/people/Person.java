@@ -1,8 +1,8 @@
 package people;
 
 public class Person {
-    private String name;
-    private int id;
+    protected String name;
+    protected int id;
 
     Person() {
         name = "";
