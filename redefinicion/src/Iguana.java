@@ -1,9 +1,5 @@
-public class Iguana extends Animal {
-Iguana(String nombre) {
-    super(nombre);
-}
+public class Iguana implements Animal {
     public void mover() {
-        System.out.println(getNombre() + " Gateando");
-    }
-    
+        System.out.println("Gateando");
+    }  
 }

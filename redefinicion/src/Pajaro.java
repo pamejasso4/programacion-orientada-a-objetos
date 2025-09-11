@@ -1,9 +1,5 @@
-public class Pajaro extends Animal{
-    Pajaro(String name) {
-        super(name);
-    }
-
+public class Pajaro implements Animal{
     public void mover() {
-        System.out.println(super.getNombre() + " Volando");
+        System.out.println("Volando");
     }
 }

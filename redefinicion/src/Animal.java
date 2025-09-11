@@ -1,4 +1,4 @@
-public abstract class Animal {
+/*public abstract class Animal {
     private String nombre;
 
     Animal(String nombre) {
@@ -10,4 +10,8 @@ public abstract class Animal {
     }
 
     public abstract void mover();
+}*/
+
+public interface Animal {
+    void mover();
 }

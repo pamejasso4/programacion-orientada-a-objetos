@@ -1,10 +1,5 @@
-public class Rana extends Animal{
-    Rana(String name) {
-        super(name);
-    }
-
+public class Rana implements Animal{
     public void mover() {
-        // TODO Auto-generated method stub
-        System.out.println(getNombre() + " Saltando");
+        System.out.println("Saltando");
     }
 }
