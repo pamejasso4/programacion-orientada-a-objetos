@@ -1,4 +1,4 @@
-public class Animal {
+public abstract class Animal {
     private String nombre;
 
     Animal(String nombre) {
@@ -9,7 +9,5 @@ public class Animal {
         return nombre;
     }
 
-    public void mover() {
-        System.out.println(nombre + " Movimiendome");
-    }
+    public abstract void mover();
 }

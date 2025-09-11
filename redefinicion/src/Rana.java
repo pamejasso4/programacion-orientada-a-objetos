@@ -3,7 +3,6 @@ public class Rana extends Animal{
         super(name);
     }
 
-    @Override
     public void mover() {
         // TODO Auto-generated method stub
         System.out.println(getNombre() + " Saltando");

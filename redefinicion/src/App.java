@@ -1,10 +1,16 @@
+import java.util.ArrayList;
+
 public class App {
     public static void main(String[] args) throws Exception {
-        Pajaro pajarito = new Pajaro("Pajarito");
-        pajarito.mover();
-        Rana ranita = new Rana("Ranita");
-        ranita.mover();
-        Pez nemo = new Pez("Nemo");
-        nemo.mover();
+        ArrayList<Animal> animals = new ArrayList<>();
+        
+        animals.add(new Pajaro("Pajarito"));
+        animals.add(new Rana("Ranita"));
+        animals.add(new Pez("Nemo"));
+        animals.add(new Iguana("Emi"));
+
+        for(Animal animal: animals) {
+            animal.mover();
+        }   
     }
 }

@@ -3,7 +3,6 @@ public class Pajaro extends Animal{
         super(name);
     }
 
-    @Override
     public void mover() {
         System.out.println(super.getNombre() + " Volando");
     }

@@ -2,10 +2,14 @@ public class Pez extends Animal {
     Pez(String name) {
         super(name);
     }
+    
+    public void mover() {
+        System.out.println(getNombre() + " Nadando");
+    }
 
     @Override
-    public void mover() {
+    public String toString() {
         // TODO Auto-generated method stub
-        System.out.println(getNombre() + " Nadando");
+        return getNombre();
     }
 }
