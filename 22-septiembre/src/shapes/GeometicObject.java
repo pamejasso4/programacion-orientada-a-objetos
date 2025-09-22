@@ -18,7 +18,7 @@ class GeometricObject {
     GeometricObject(String color, boolean filled) {
         this.color = color;
         this.filled = filled;
-        dateCreated = new Date(); // yyyy-mm-dd hh-mm-ss
+        dateCreated = new Date(); // mm-dd-yyyy hh-mm-ss
     }
 
      public String getColor() {
