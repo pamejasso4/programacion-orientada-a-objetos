@@ -2,7 +2,7 @@ package shapes;
 
 import java.util.Date;
 
-class GeometricObject { 
+public class GeometricObject { 
     private String color;
     private boolean filled;
     private Date dateCreated;

@@ -3,17 +3,17 @@ package shapes;
 public class Circle extends GeometricObject {
     private double radius;
 
-    Circle() { 
+    public Circle() { 
         super();
         radius = 0.0;
     }
 
-    Circle(double radius) {
+    public Circle(double radius) {
         super();
         this.radius = radius;
     }
 
-    Circle(double radius, String color, boolean filled) {
+    public Circle(double radius, String color, boolean filled) {
         super(color, filled);
         this.radius = radius;
     }
