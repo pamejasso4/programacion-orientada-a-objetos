@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.AppTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-09-25T21:05:05.551Z" hostname="CONTA-COA381" time="0.031">
+  <properties/>
+  <testcase name="testWithdrawInsufficientFunds()" classname="org.example.AppTest" time="0.016"/>
+  <testcase name="testTransferSuccess()" classname="org.example.AppTest" time="0.002"/>
+  <testcase name="testVerCantidad()" classname="org.example.AppTest" time="0.006"/>
+  <testcase name="testTransferInsufficientFunds()" classname="org.example.AppTest" time="0.001"/>
+  <testcase name="testWithdrawSuccess()" classname="org.example.AppTest" time="0.002"/>
+  <testcase name="testDeposit()" classname="org.example.AppTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
